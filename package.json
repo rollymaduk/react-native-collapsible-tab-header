@@ -1,0 +1,43 @@
+{
+  "name": "collapsible-tab-header",
+  "version": "1.0.0",
+  "description": "Group of react components to ease implementation of collapsible headers with tabs",
+  "main": "index.js",
+  "author": "Ronald Maduka",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.22.0",
+    "babel-eslint": "^8.0.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.1",
+    "eslint": "^4.4.1",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-flowtype": "^2.35.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.2.1",
+    "eslint-plugin-react-native": "^3.0.1",
+    "flow-bin": "^0.53.0",
+    "jest-expo": "^21.0.2",
+    "react-native-scripts": "1.5.0",
+    "react-test-renderer": "16.0.0-alpha.12",
+    "sinon": "^3.2.1"
+  },
+  "ava": {
+    "babel": "inherit",
+    "failWithoutAssertions": false,
+    "require": [
+      "babel-register"
+    ]
+  },
+  "dependencies": {
+    "@hocs/with-lifecycle": "^0.2.0",
+    "lodash": "^4.17.4",
+    "prop-types": "^15.6.0",
+    "react": "16.0.0-alpha.12",
+    "react-native": "^0.48.4",
+    "react-native-vector-icons": "^4.4.0",
+    "recompose": "^0.25.1"
+  }
+}
