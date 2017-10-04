@@ -1,7 +1,7 @@
 {
-  "name": "collapsible-tab-header",
+  "name": "react-native-collapsible-tab-header",
   "version": "1.0.0",
-  "description": "Group of react components to ease implementation of collapsible headers with tabs",
+  "description": "Group of react-native components to ease implementation of collapsible headers with tabs",
   "main": "index.js",
   "author": "Ronald Maduka",
   "license": "MIT",
@@ -11,6 +11,7 @@
     "babel-preset-env": "^1.6.0",
     "babel-register": "^6.26.0",
     "chai": "^4.1.1",
+    "cz-conventional-changelog": "^2.0.0",
     "eslint": "^4.4.1",
     "eslint-config-airbnb": "^15.1.0",
     "eslint-plugin-flowtype": "^2.35.0",
@@ -39,5 +40,10 @@
     "react-native": "^0.48.4",
     "react-native-vector-icons": "^4.4.0",
     "recompose": "^0.25.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
