@@ -200,6 +200,14 @@ react component for header <br/>
 1. **styles(Object)-default(_{ backgroundColor: #FFFFFF, flex: 1 }_)**:
 style for header component;
 
+### Tab:
+Tab component to display tab content <br/>
+**Props**
+1. **key(string)**: key same as key in routes
+2. **hasScrollable(boolean)-default(_true_)**:  set this to fault when the tab content is not a scrollable
+to properly align items.
+
+
 #### Scrollable(ScrollableComponent:React Native Componet):
 Method to create a scrollable component to control collapsible header
 
