@@ -188,14 +188,14 @@ Parent Component to manage tabs for collapsible
 4. **inactiveIconStyle (object)-default(_{ fontSize: 18, color:#FFFFFF }_)** :style for in-active icons
 5. **labelStyle (object)-default(_{ fontSize: 12, color:#FFFFFF }_)** :style for in-active icons
 6. **indicatorStyle (object)-default(_{backgroundColor: #FFFFFF }_)** :style for in-active icons
-7. ** All props from the excellent [react-native-tab-view tabBar](https://github.com/react-native-community/react-native-tab-view#tabbar-)
+7. **All props from the excellent [react-native-tab-view tabBar](https://github.com/react-native-community/react-native-tab-view#tabbar-)**
 
 #### TabHeader:
 Header component for tabs <br/>
-***children:*** <br/>
+**children:** <br/>
 react component for header <br/>
-***Props:*** <br/>
-1. ***styles(Object)-default(_{ backgroundColor: #FFFFFF, flex: 1 }_)***:
+**Props:** <br/>
+1. **styles(Object)-default(_{ backgroundColor: #FFFFFF, flex: 1 }_)**:
 style for header component;
 
 #### Scrollable(ScrollableComponent:React Native Componet):
