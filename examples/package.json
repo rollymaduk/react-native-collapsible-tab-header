@@ -23,7 +23,7 @@
     "lodash": "^4.17.4",
     "react": "16.0.0-alpha.12",
     "react-native": "^0.48.4",
-    "react-native-collapsible-tab-header": "^1.1.0",
+    "react-native-collapsible-tab-header": "^1.1.1",
     "react-native-elements": "^0.17.0",
     "react-native-router-flux": "^4.0.0-beta.21",
     "recompose": "^0.25.1"

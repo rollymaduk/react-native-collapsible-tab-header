@@ -6,8 +6,7 @@ import { compose, getContext, withProps, withHandlers,setDisplayName } from 'rec
 
 const DISPLAY_NAME = 'scrollableComponent'
 const scrollEventThrottle = 1;
-export default function (ScrollableComponent: any) {
-  const AnimatedList = Animated.createAnimatedComponent(ScrollableComponent)
+export default function (AnimatedList: any) {
   const Component = ({
     onScrollEndDrag,
     onMomentumScrollBegin,

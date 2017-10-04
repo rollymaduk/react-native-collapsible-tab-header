@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/README.md" line="219" />
+    <bookmark url="file://$PROJECT_DIR$/README.md" line="221" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b195b463-b3db-42c8-88a7-10c35ce978d4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/components/items-custom-list.js" afterPath="$PROJECT_DIR$/examples/components/items-custom-list.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/package.json" afterPath="$PROJECT_DIR$/examples/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/yarn.lock" afterPath="$PROJECT_DIR$/examples/yarn.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/list.js" afterPath="$PROJECT_DIR$/src/list.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scrollable.js" afterPath="$PROJECT_DIR$/src/scrollable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view.js" afterPath="$PROJECT_DIR$/src/view.js" />
     </list>
     <list id="69f57527-19e8-40dd-aed5-72d11f6da7c1" name="optimize data load in examples" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -33,58 +39,60 @@
       <file leaf-file-name="tab.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tabbedHeader/tab.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-              <folding />
+            <state relative-caret-position="188">
+              <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+              <folding>
+                <element signature="e#9#35#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="helpers.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/helpers.js">
+      <file leaf-file-name="view.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1285">
-              <caret line="102" column="22" lean-forward="false" selection-start-line="102" selection-start-column="22" selection-end-line="102" selection-end-column="22" />
+            <state relative-caret-position="51">
+              <caret line="4" column="44" lean-forward="false" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="192">
-                <caret line="195" column="26" lean-forward="true" selection-start-line="195" selection-start-column="26" selection-end-line="195" selection-end-column="26" />
+              <first_editor relative-caret-position="341">
+                <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="73" />
                 <folding>
-                  <marker date="1507144133862" expanded="true" signature="926:927" ph="//..." />
-                  <marker date="1507144133862" expanded="true" signature="926:936" ph="//..." />
-                  <marker date="1507144133862" expanded="true" signature="945:1253" ph="..." />
-                  <marker date="1507144133862" expanded="true" signature="1373:1603" ph="&lt;List/&gt;" />
-                  <marker date="1507144133862" expanded="true" signature="1385:1592" ph="&lt;MyCustomScrollView/&gt;" />
-                  <marker date="1507144133862" expanded="true" signature="1442:1554" ph="&lt;ListItem/&gt;" />
-                  <marker date="1507144133862" expanded="true" signature="1698:1727" ph="{...}" />
-                  <marker date="1507144133862" expanded="true" signature="1847:2104" ph="..." />
-                  <marker date="1507144133862" expanded="true" signature="2167:2425" ph="&lt;List/&gt;" />
-                  <marker date="1507144133862" expanded="true" signature="2178:2415" ph="&lt;FlatList/&gt;" />
-                  <marker date="1507144133862" expanded="true" signature="2315:2399" ph="&lt;ListItem/&gt;" />
-                  <marker date="1507144133862" expanded="true" signature="2514:2541" ph="{...}" />
-                  <marker date="1507144133862" expanded="true" signature="2629:2949" ph="..." />
-                  <marker date="1507144133862" expanded="true" signature="3167:4279" ph="&lt;Collapsible/&gt;" />
-                  <marker date="1507144133862" expanded="true" signature="3236:4262" ph="&lt;View/&gt;" />
-                  <marker date="1507144133862" expanded="true" signature="3274:4250" ph="&lt;Tabs/&gt;" />
-                  <marker date="1507144133862" expanded="true" signature="3385:3779" ph="[...]" />
-                  <marker date="1507144133862" expanded="true" signature="3797:3914" ph="&lt;TabHeader/&gt;" />
-                  <marker date="1507144133862" expanded="true" signature="3819:3893" ph="&lt;View/&gt;" />
-                  <marker date="1507144133862" expanded="true" signature="3923:3989" ph="&lt;Tab/&gt;" />
-                  <marker date="1507144133862" expanded="true" signature="3998:4068" ph="&lt;Tab/&gt;" />
-                  <marker date="1507144133862" expanded="true" signature="4077:4143" ph="&lt;Tab/&gt;" />
-                  <marker date="1507144133862" expanded="true" signature="4152:4236" ph="&lt;Tab/&gt;" />
-                  <marker date="1507144133862" expanded="true" signature="4417:4711" ph="..." />
-                  <marker date="1507144133862" expanded="true" signature="4784:5090" ph="&lt;Collapsible/&gt;" />
-                  <marker date="1507144133862" expanded="true" signature="4857:5069" ph="&lt;View/&gt;" />
-                  <marker date="1507144133862" expanded="true" signature="4904:5023" ph="&lt;Header/&gt;" />
-                  <marker date="1507144133862" expanded="true" signature="4925:5003" ph="&lt;View/&gt;" />
+                  <marker date="1507144690135" expanded="true" signature="926:927" ph="//..." />
+                  <marker date="1507144690135" expanded="true" signature="926:936" ph="//..." />
+                  <marker date="1507144690135" expanded="true" signature="945:1262" ph="..." />
+                  <marker date="1507144690135" expanded="true" signature="1466:1696" ph="&lt;List/&gt;" />
+                  <marker date="1507144690135" expanded="true" signature="1478:1685" ph="&lt;MyCustomScrollView/&gt;" />
+                  <marker date="1507144690135" expanded="true" signature="1535:1647" ph="&lt;ListItem/&gt;" />
+                  <marker date="1507144690135" expanded="true" signature="1791:1820" ph="{...}" />
+                  <marker date="1507144690135" expanded="true" signature="1940:2197" ph="..." />
+                  <marker date="1507144690135" expanded="true" signature="2260:2518" ph="&lt;List/&gt;" />
+                  <marker date="1507144690135" expanded="true" signature="2271:2508" ph="&lt;FlatList/&gt;" />
+                  <marker date="1507144690135" expanded="true" signature="2408:2492" ph="&lt;ListItem/&gt;" />
+                  <marker date="1507144690135" expanded="true" signature="2607:2634" ph="{...}" />
+                  <marker date="1507144690135" expanded="true" signature="2722:3042" ph="..." />
+                  <marker date="1507144690135" expanded="true" signature="3260:4372" ph="&lt;Collapsible/&gt;" />
+                  <marker date="1507144690135" expanded="true" signature="3329:4355" ph="&lt;View/&gt;" />
+                  <marker date="1507144690135" expanded="true" signature="3367:4343" ph="&lt;Tabs/&gt;" />
+                  <marker date="1507144690135" expanded="true" signature="3478:3872" ph="[...]" />
+                  <marker date="1507144690135" expanded="true" signature="3890:4007" ph="&lt;TabHeader/&gt;" />
+                  <marker date="1507144690135" expanded="true" signature="3912:3986" ph="&lt;View/&gt;" />
+                  <marker date="1507144690135" expanded="true" signature="4016:4082" ph="&lt;Tab/&gt;" />
+                  <marker date="1507144690135" expanded="true" signature="4091:4161" ph="&lt;Tab/&gt;" />
+                  <marker date="1507144690135" expanded="true" signature="4170:4236" ph="&lt;Tab/&gt;" />
+                  <marker date="1507144690135" expanded="true" signature="4245:4329" ph="&lt;Tab/&gt;" />
+                  <marker date="1507144690135" expanded="true" signature="4510:4804" ph="..." />
+                  <marker date="1507144690135" expanded="true" signature="4877:5183" ph="&lt;Collapsible/&gt;" />
+                  <marker date="1507144690135" expanded="true" signature="4950:5162" ph="&lt;View/&gt;" />
+                  <marker date="1507144690135" expanded="true" signature="4997:5116" ph="&lt;Header/&gt;" />
+                  <marker date="1507144690135" expanded="true" signature="5018:5096" ph="&lt;View/&gt;" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -92,21 +100,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/screens/index.js">
+      <file leaf-file-name="scrollable.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scrollable.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+            <state relative-caret-position="136">
+              <caret line="8" column="45" lean-forward="false" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+              <folding>
+                <element signature="e#9#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/list.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/header.js">
+      <file leaf-file-name="items-custom-list.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/examples/components/items-custom-list.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="18" column="5" lean-forward="false" selection-start-line="16" selection-start-column="2" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="34">
+              <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -138,17 +158,7 @@
         <entry file="file://$PROJECT_DIR$/examples/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="116">
-              <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="collapsible.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/collapsible.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="25" column="16" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+              <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -202,17 +212,17 @@
         <option value="$PROJECT_DIR$/examples/style.js" />
         <option value="$PROJECT_DIR$/examples/components/items-flat-list.js" />
         <option value="$PROJECT_DIR$/examples/screens/no-tabs.js" />
-        <option value="$PROJECT_DIR$/examples/components/items-custom-list.js" />
-        <option value="$PROJECT_DIR$/src/view.js" />
-        <option value="$PROJECT_DIR$/src/list.js" />
         <option value="$PROJECT_DIR$/examples/data.js" />
         <option value="$PROJECT_DIR$/examples/package.json" />
-        <option value="$PROJECT_DIR$/src/scrollable.js" />
         <option value="$PROJECT_DIR$/src/header.js" />
         <option value="$PROJECT_DIR$/src/helpers.js" />
         <option value="$PROJECT_DIR$/examples/screens/tabbed.js" />
         <option value="$PROJECT_DIR$/src/tabbedHeader/tab.js" />
+        <option value="$PROJECT_DIR$/src/list.js" />
+        <option value="$PROJECT_DIR$/src/scrollable.js" />
+        <option value="$PROJECT_DIR$/src/view.js" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/examples/components/items-custom-list.js" />
       </list>
     </option>
   </component>
@@ -278,6 +288,11 @@
               <item name="collapsible-tab-header" type="462c0819:PsiDirectoryNode" />
               <item name="examples" type="462c0819:PsiDirectoryNode" />
               <item name="screens" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="collapsible-tab-header" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collapsible-tab-header" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -345,7 +360,7 @@
       <workItem from="1507104016050" duration="11000" />
       <workItem from="1507104053941" duration="4722000" />
       <workItem from="1507115506037" duration="23267000" />
-      <workItem from="1507141633438" duration="2484000" />
+      <workItem from="1507141633438" duration="3030000" />
     </task>
     <task id="LOCAL-00001" summary="rename project">
       <created>1507080403501</created>
@@ -377,7 +392,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41432000" />
+    <option name="totallyTimeSpent" value="41978000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
@@ -708,31 +723,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/view.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="42" lean-forward="false" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#52#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/components/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/components/items-custom-list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#9#35#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -744,38 +739,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#50#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scrollable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="33" column="31" lean-forward="false" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
-          <folding>
-            <element signature="e#9#35#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tabbedHeader/header.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="23" column="32" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tabbedHeader/tabs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -833,15 +800,51 @@
     <entry file="file://$PROJECT_DIR$/examples/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
-          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tabbedHeader/tabs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tabbedHeader/tab.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        <state relative-caret-position="188">
+          <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          <folding>
+            <element signature="e#9#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scrollable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="45" lean-forward="false" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+          <folding>
+            <element signature="e#9#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="4" column="44" lean-forward="false" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
           <folding />
         </state>
       </provider>
@@ -855,40 +858,48 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="192">
-            <caret line="195" column="26" lean-forward="true" selection-start-line="195" selection-start-column="26" selection-end-line="195" selection-end-column="26" />
+          <first_editor relative-caret-position="341">
+            <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="73" />
             <folding>
-              <marker date="1507144133862" expanded="true" signature="926:927" ph="//..." />
-              <marker date="1507144133862" expanded="true" signature="926:936" ph="//..." />
-              <marker date="1507144133862" expanded="true" signature="945:1253" ph="..." />
-              <marker date="1507144133862" expanded="true" signature="1373:1603" ph="&lt;List/&gt;" />
-              <marker date="1507144133862" expanded="true" signature="1385:1592" ph="&lt;MyCustomScrollView/&gt;" />
-              <marker date="1507144133862" expanded="true" signature="1442:1554" ph="&lt;ListItem/&gt;" />
-              <marker date="1507144133862" expanded="true" signature="1698:1727" ph="{...}" />
-              <marker date="1507144133862" expanded="true" signature="1847:2104" ph="..." />
-              <marker date="1507144133862" expanded="true" signature="2167:2425" ph="&lt;List/&gt;" />
-              <marker date="1507144133862" expanded="true" signature="2178:2415" ph="&lt;FlatList/&gt;" />
-              <marker date="1507144133862" expanded="true" signature="2315:2399" ph="&lt;ListItem/&gt;" />
-              <marker date="1507144133862" expanded="true" signature="2514:2541" ph="{...}" />
-              <marker date="1507144133862" expanded="true" signature="2629:2949" ph="..." />
-              <marker date="1507144133862" expanded="true" signature="3167:4279" ph="&lt;Collapsible/&gt;" />
-              <marker date="1507144133862" expanded="true" signature="3236:4262" ph="&lt;View/&gt;" />
-              <marker date="1507144133862" expanded="true" signature="3274:4250" ph="&lt;Tabs/&gt;" />
-              <marker date="1507144133862" expanded="true" signature="3385:3779" ph="[...]" />
-              <marker date="1507144133862" expanded="true" signature="3797:3914" ph="&lt;TabHeader/&gt;" />
-              <marker date="1507144133862" expanded="true" signature="3819:3893" ph="&lt;View/&gt;" />
-              <marker date="1507144133862" expanded="true" signature="3923:3989" ph="&lt;Tab/&gt;" />
-              <marker date="1507144133862" expanded="true" signature="3998:4068" ph="&lt;Tab/&gt;" />
-              <marker date="1507144133862" expanded="true" signature="4077:4143" ph="&lt;Tab/&gt;" />
-              <marker date="1507144133862" expanded="true" signature="4152:4236" ph="&lt;Tab/&gt;" />
-              <marker date="1507144133862" expanded="true" signature="4417:4711" ph="..." />
-              <marker date="1507144133862" expanded="true" signature="4784:5090" ph="&lt;Collapsible/&gt;" />
-              <marker date="1507144133862" expanded="true" signature="4857:5069" ph="&lt;View/&gt;" />
-              <marker date="1507144133862" expanded="true" signature="4904:5023" ph="&lt;Header/&gt;" />
-              <marker date="1507144133862" expanded="true" signature="4925:5003" ph="&lt;View/&gt;" />
+              <marker date="1507144690135" expanded="true" signature="926:927" ph="//..." />
+              <marker date="1507144690135" expanded="true" signature="926:936" ph="//..." />
+              <marker date="1507144690135" expanded="true" signature="945:1262" ph="..." />
+              <marker date="1507144690135" expanded="true" signature="1466:1696" ph="&lt;List/&gt;" />
+              <marker date="1507144690135" expanded="true" signature="1478:1685" ph="&lt;MyCustomScrollView/&gt;" />
+              <marker date="1507144690135" expanded="true" signature="1535:1647" ph="&lt;ListItem/&gt;" />
+              <marker date="1507144690135" expanded="true" signature="1791:1820" ph="{...}" />
+              <marker date="1507144690135" expanded="true" signature="1940:2197" ph="..." />
+              <marker date="1507144690135" expanded="true" signature="2260:2518" ph="&lt;List/&gt;" />
+              <marker date="1507144690135" expanded="true" signature="2271:2508" ph="&lt;FlatList/&gt;" />
+              <marker date="1507144690135" expanded="true" signature="2408:2492" ph="&lt;ListItem/&gt;" />
+              <marker date="1507144690135" expanded="true" signature="2607:2634" ph="{...}" />
+              <marker date="1507144690135" expanded="true" signature="2722:3042" ph="..." />
+              <marker date="1507144690135" expanded="true" signature="3260:4372" ph="&lt;Collapsible/&gt;" />
+              <marker date="1507144690135" expanded="true" signature="3329:4355" ph="&lt;View/&gt;" />
+              <marker date="1507144690135" expanded="true" signature="3367:4343" ph="&lt;Tabs/&gt;" />
+              <marker date="1507144690135" expanded="true" signature="3478:3872" ph="[...]" />
+              <marker date="1507144690135" expanded="true" signature="3890:4007" ph="&lt;TabHeader/&gt;" />
+              <marker date="1507144690135" expanded="true" signature="3912:3986" ph="&lt;View/&gt;" />
+              <marker date="1507144690135" expanded="true" signature="4016:4082" ph="&lt;Tab/&gt;" />
+              <marker date="1507144690135" expanded="true" signature="4091:4161" ph="&lt;Tab/&gt;" />
+              <marker date="1507144690135" expanded="true" signature="4170:4236" ph="&lt;Tab/&gt;" />
+              <marker date="1507144690135" expanded="true" signature="4245:4329" ph="&lt;Tab/&gt;" />
+              <marker date="1507144690135" expanded="true" signature="4510:4804" ph="..." />
+              <marker date="1507144690135" expanded="true" signature="4877:5183" ph="&lt;Collapsible/&gt;" />
+              <marker date="1507144690135" expanded="true" signature="4950:5162" ph="&lt;View/&gt;" />
+              <marker date="1507144690135" expanded="true" signature="4997:5116" ph="&lt;Header/&gt;" />
+              <marker date="1507144690135" expanded="true" signature="5018:5096" ph="&lt;View/&gt;" />
             </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/components/items-custom-list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -14,14 +14,16 @@ Create your custom scrollable
 ```javascript
  // @flow
  import React from 'react';
- import { ScrollView } from 'react-native';
+ import { ScrollView,Animated } from 'react-native';
  import { defaultProps } from 'recompose';
  import { ListItem, List } from 'react-native-elements';
  import { Scrollable } from 'react-native-collapsible-tab-header';
  import createData from '../data';
  import type { dataType } from '../types';
  
- const MyCustomScrollView = Scrollable(ScrollView);
+ const AnimatedScrollable = Animated.createAnimatedComponent(ScrollView);
+ 
+ const MyCustomScrollView = Scrollable(AnimatedScrollable);
  
  const Component = ({ data }: {data: Array<dataType>}) => (
    <List>
