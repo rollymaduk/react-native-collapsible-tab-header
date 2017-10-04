@@ -2,23 +2,21 @@
 import React from 'react';
 import { defaultProps } from 'recompose';
 import { ListItem, List } from 'react-native-elements';
-import PropTypes from 'prop-types';
-import { FlatList } from '../../index';
+import { ScrollView } from '../../src';
 import createData from '../data';
 import type { dataType } from '../types';
 
 const Component = ({ data }: {data: Array<dataType>}) => (
   <List>
-    <FlatList
-      data={data}
-      keyExtractor={(item: dataType) => item.id}
-      renderItem={({ item }: {item: dataType}) => (
+    <ScrollView>
+      {data.map(item => (
         <ListItem
+          key={item.id}
           subtitle={item.subtitle}
           title={item.title}
         />
-      )}
-    />
+      ))}
+    </ScrollView>
   </List>
 );
 

@@ -3,7 +3,7 @@ import React from 'react';
 import { View, Text } from 'react-native';
 import { compose, defaultProps } from 'recompose';
 import { ItemsScrollView, ItemsFlatList, ItemsCustomList } from '../components/index';
-import { Collapsible, Tabs, TabHeader, Tab } from '../../index';
+import { Collapsible, Tabs, TabHeader, Tab } from '../../src/index.js';
 import styles from '../style';
 
 

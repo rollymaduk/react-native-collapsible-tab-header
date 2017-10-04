@@ -1,7 +1,6 @@
 // @flow
 import React from 'react';
 import { setDisplayName, compose } from 'recompose';
-import PropTypes from 'prop-types';
 
 const DISPLAY_NAME = 'CollapsibleTabItem';
 

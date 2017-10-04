@@ -3,7 +3,7 @@ import React from 'react';
 import { View, Text } from 'react-native';
 import { compose, defaultProps } from 'recompose';
 import { ItemsCustomList } from '../components/index';
-import { Collapsible, Header } from '../../index';
+import { Collapsible, Header } from '../../src/index.js';
 import styles from '../style';
 
 

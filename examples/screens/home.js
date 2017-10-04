@@ -3,7 +3,6 @@ import React from 'react';
 import { View } from 'react-native';
 import { defaultProps } from 'recompose';
 import { Button } from 'react-native-elements';
-import PropTypes from 'prop-types';
 import styles from '../style';
 
 const Component = ({ style }: {style: Object}) => (

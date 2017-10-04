@@ -10,7 +10,7 @@
   "author": "Ronald Maduka",
   "license": "MIT",
   "scripts": {
-    "commit":"git-cz -a",
+    "commit": "git-cz -a",
     "test": "ava",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
@@ -47,6 +47,7 @@
     "prop-types": "^15.6.0",
     "react": "16.0.0-alpha.12",
     "react-native": "^0.48.4",
+    "react-native-tab-view": "^0.0.69",
     "react-native-vector-icons": "^4.4.0",
     "recompose": "^0.25.1"
   },

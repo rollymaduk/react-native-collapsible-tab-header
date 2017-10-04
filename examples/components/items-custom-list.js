@@ -1,14 +1,13 @@
 // @flow
 import React from 'react';
-import {ScrollView} from 'react-native'
+import { ScrollView } from 'react-native';
 import { defaultProps } from 'recompose';
 import { ListItem, List } from 'react-native-elements';
-import PropTypes from 'prop-types';
-import { Scrollable } from '../../index';
+import { Scrollable } from '../../src';
 import createData from '../data';
 import type { dataType } from '../types';
 
-const MyCustomScrollView = Scrollable(ScrollView)
+const MyCustomScrollView = Scrollable(ScrollView);
 
 const Component = ({ data }: {data: Array<dataType>}) => (
   <List>
