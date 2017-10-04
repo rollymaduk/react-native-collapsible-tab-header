@@ -9,7 +9,7 @@ const ScrollableMethods = class ScrollableMethods {
     _offsetValue=0;
     _scrollEndTimer=null;
 
-    momentumScrollEnd({ offsetAnim, height,collapseHeight }: any) {
+    momentumScrollEnd({ offsetAnim, height, collapseHeight }: any) {
       const toValue = this._scrollValue > height &&
         this._clampedScrollValue > collapseHeight
         ? this._offsetValue + height

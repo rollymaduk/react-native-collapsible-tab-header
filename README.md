@@ -162,6 +162,7 @@ or without tabs
     )(Component);
     
 ```
+learn more from the examples folder
 
 ### API
 
@@ -213,4 +214,11 @@ Indeed I could not have achieved this without the excellent contributions from o
 4. [recompose](https://github.com/acdlite/recompose) - so cool! 
 5. [React](https://reactjs.org/) and 
 [ReactNative](https://facebook.github.io/react-native/) - just makes a lot of sense :)
+
+###Contributions:
+PR's are very welcome
+
+###Todo
+1. Improve docs perhaps include GIF screenshots
+2. add examples to expo.
 
