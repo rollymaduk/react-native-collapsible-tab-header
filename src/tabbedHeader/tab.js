@@ -1,5 +1,6 @@
 // @flow
 import React from 'react';
+import PropTypes from 'prop-types';
 import { setDisplayName, compose, withProps, getContext } from 'recompose';
 import { getTabContentStyle } from '../helpers';
 

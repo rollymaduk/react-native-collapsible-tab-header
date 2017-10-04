@@ -171,17 +171,17 @@ learn more from the examples folder
 
 ### API
 
-###Collapsible:
+#### Collapsible:
 React native parent component to create collapsible component <br>
-***Props***
-1. ***height(number | string)-default('30%')***: height of collapsible header in either percentage or fixed length.
-2. ***collapseHeight(string)-default('50%)***: height in header to respond with closing or opening header during a scroll. 
+**Props**
+1. **height(number | string)-default('30%')**: height of collapsible header in either percentage or fixed length.
+2. **collapseHeight(string)-default('50%)**: height in header to respond with closing or opening header during a scroll. 
  
-###Tabs:
+#### Tabs:
 Parent Component to manage tabs for collapsible
- <br/> ***Props*** 
-1. ***routes(Array of Routes (_{icon:{name:string,type:string, ...propsFrom 
-[react-native-elements icon](https://react-native-training.github.io/react-native-elements/API/icons/)}_))-default([])***:
+ <br/> **Props** 
+1. **routes(Array of Routes (_{icon:{name:string,type:string, ...propsFrom 
+[react-native-elements icon](https://react-native-training.github.io/react-native-elements/API/icons/)}_))-default([])**:
 
 2. **iconStyle (object)-default(_{ fontSize: 18, color:#FFFFFF }_)** :style for icons
 3. **activeIconStyle (object)-default(_{ fontSize: 18, color:#FFFFFF }_)** :style for active icons
@@ -190,7 +190,7 @@ Parent Component to manage tabs for collapsible
 6. **indicatorStyle (object)-default(_{backgroundColor: #FFFFFF }_)** :style for in-active icons
 7. ** All props from the excellent [react-native-tab-view tabBar](https://github.com/react-native-community/react-native-tab-view#tabbar-)
 
-###TabHeader:
+#### TabHeader:
 Header component for tabs <br/>
 ***children:*** <br/>
 react component for header <br/>
@@ -198,20 +198,20 @@ react component for header <br/>
 1. ***styles(Object)-default(_{ backgroundColor: #FFFFFF, flex: 1 }_)***:
 style for header component;
 
-###Scrollable(ScrollableComponent:React Native Componet):
+#### Scrollable(ScrollableComponent:React Native Componet):
 Method to create a scrollable component to control collapsible header
 
-###FlatList:
+#### FlatList:
 Scrollable flatlist component from Scrollable() method, same as [RN FlatList](https://facebook.github.io/react-native/docs/flatlist.html)
 
-###ScrollView:
+#### ScrollView:
 Scrollable Scrollview component from Scrollable() method, same as [RN ScrollView](https://facebook.github.io/react-native/docs/scrollview.html)
    
-###Motivation:
+#### Motivation:
 Needed an easy way to implement collapsible tab headers and headers for a project
 and could not find one .. so I created this to ease the burden for myself and perhaps others.
 
-###Acknowledgments:
+#### Acknowledgments:
 Indeed I could not have achieved this without the excellent contributions from others such as
 1. @janicduplessis for his excellent medium [post](https://medium.com/appandflow/react-native-collapsible-navbar-e51a049b560a)
 2. brilliant tab view from [react-native-community](https://github.com/react-native-community/react-native-tab-view)
@@ -220,10 +220,10 @@ Indeed I could not have achieved this without the excellent contributions from o
 5. [React](https://reactjs.org/) and 
 [ReactNative](https://facebook.github.io/react-native/) - just makes a lot of sense :)
 
-###Contributions:
+#### Contributions:
 PR's are very welcome
 
-###Todo
+#### Todo
 1. Improve docs perhaps include GIF screenshots
 2. add examples to expo.
 
