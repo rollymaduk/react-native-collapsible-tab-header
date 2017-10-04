@@ -123,9 +123,9 @@ const Component = ({ style }: {style: Object}) => (
           <ItemsScrollView />
         </Tab>
         <Tab key={'custom'}>
-          |<ItemsCustomList />
+          <ItemsCustomList />
         </Tab>
-        <Tab key={'content'}>
+        <Tab hasScrollable={false} key={'content'}>
           <Text> this is just a content </Text>
         </Tab>
       </Tabs>
@@ -200,7 +200,7 @@ react component for header <br/>
 1. **styles(Object)-default(_{ backgroundColor: #FFFFFF, flex: 1 }_)**:
 style for header component;
 
-### Tab:
+#### Tab:
 Tab component to display tab content <br/>
 **Props**
 1. **key(string)**: key same as key in routes
@@ -236,4 +236,4 @@ PR's are very welcome
 #### Todo
 1. Improve docs perhaps include GIF screenshots
 2. add examples to expo.
-
+3. Improve on components to include propType definitions

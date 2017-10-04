@@ -41,7 +41,7 @@ const Component = ({ style }: {style: Object}) => (
         <Tab key={'custom'}>
           <ItemsCustomList />
         </Tab>
-        <Tab key={'content'}>
+        <Tab hasScrollable={false} key={'content'}>
           <View>
             <Text> this is just a content </Text>
           </View>
