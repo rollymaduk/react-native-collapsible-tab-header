@@ -42,7 +42,7 @@ const Component = ({ style }: {style: Object}) => (
           <ItemsCustomList />
         </Tab>
         <Tab key={'content'}>
-          <View style={{ paddingTop: 250 }}>
+          <View>
             <Text> this is just a content </Text>
           </View>
         </Tab>

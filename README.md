@@ -179,7 +179,7 @@ React native parent component to create collapsible component <br>
  
 ###Tabs:
 Parent Component to manage tabs for collapsible
-***Props***
+ <br/> ***Props*** 
 1. ***routes(Array of Routes (_{icon:{name:string,type:string, ...propsFrom 
 [react-native-elements icon](https://react-native-training.github.io/react-native-elements/API/icons/)}_))-default([])***:
 
@@ -191,10 +191,10 @@ Parent Component to manage tabs for collapsible
 7. ** All props from the excellent [react-native-tab-view tabBar](https://github.com/react-native-community/react-native-tab-view#tabbar-)
 
 ###TabHeader:
-Header component for tabs<br/>
-***children:***<br/>
-react component for header<br/>
-***Props:***<br/>
+Header component for tabs <br/>
+***children:*** <br/>
+react component for header <br/>
+***Props:*** <br/>
 1. ***styles(Object)-default(_{ backgroundColor: #FFFFFF, flex: 1 }_)***:
 style for header component;
 
