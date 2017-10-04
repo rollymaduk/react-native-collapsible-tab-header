@@ -1,3 +1,8 @@
+[![Travis](https://img.shields.io/travis/rust-lang/rust.svg)](https://github.com/rollymaduk/react-native-collapsible-tab-header)
+[![GitHub issues](https://img.shields.io/github/issues/rollymaduk/react-native-collapsible-tab-header.svg)](https://github.com/rollymaduk/react-native-collapsible-tab-header/issues)
+[![npm](https://img.shields.io/npm/dw/localeval.svg)](https://github.com/rollymaduk/react-native-collapsible-tab-header)
+[![npm](https://img.shields.io/npm/v/npm.svg)](https://github.com/rollymaduk/react-native-collapsible-tab-header)
+[![David](https://img.shields.io/david/expressjs/express.svg)](https://github.com/rollymaduk/react-native-collapsible-tab-header)
 # react-native-collapsible-tab-header
 Group of react-native components to ease implementation of collapsible headers with tabs
 

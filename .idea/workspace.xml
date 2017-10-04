@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/README.md" line="214" />
+    <bookmark url="file://$PROJECT_DIR$/README.md" line="219" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b195b463-b3db-42c8-88a7-10c35ce978d4" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/App.test.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/helpers.js" afterPath="$PROJECT_DIR$/src/helpers.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,37 +23,37 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="186">
-                <caret line="164" column="35" lean-forward="false" selection-start-line="164" selection-start-column="35" selection-end-line="164" selection-end-column="35" />
+              <first_editor relative-caret-position="68">
+                <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
                 <folding>
-                  <marker date="1507130579290" expanded="true" signature="250:251" ph="//..." />
-                  <marker date="1507130579290" expanded="true" signature="250:260" ph="//..." />
-                  <marker date="1507130579290" expanded="true" signature="269:577" ph="..." />
-                  <marker date="1507130579290" expanded="true" signature="697:927" ph="&lt;List/&gt;" />
-                  <marker date="1507130579290" expanded="true" signature="709:916" ph="&lt;MyCustomScrollView/&gt;" />
-                  <marker date="1507130579290" expanded="true" signature="766:878" ph="&lt;ListItem/&gt;" />
-                  <marker date="1507130579290" expanded="true" signature="1022:1051" ph="{...}" />
-                  <marker date="1507130579290" expanded="true" signature="1171:1428" ph="..." />
-                  <marker date="1507130579290" expanded="true" signature="1491:1749" ph="&lt;List/&gt;" />
-                  <marker date="1507130579290" expanded="true" signature="1502:1739" ph="&lt;FlatList/&gt;" />
-                  <marker date="1507130579290" expanded="true" signature="1639:1723" ph="&lt;ListItem/&gt;" />
-                  <marker date="1507130579290" expanded="true" signature="1838:1865" ph="{...}" />
-                  <marker date="1507130579290" expanded="true" signature="1953:2273" ph="..." />
-                  <marker date="1507130579290" expanded="true" signature="2491:3603" ph="&lt;Collapsible/&gt;" />
-                  <marker date="1507130579290" expanded="true" signature="2560:3586" ph="&lt;View/&gt;" />
-                  <marker date="1507130579290" expanded="true" signature="2598:3574" ph="&lt;Tabs/&gt;" />
-                  <marker date="1507130579290" expanded="true" signature="2709:3103" ph="[...]" />
-                  <marker date="1507130579290" expanded="true" signature="3121:3238" ph="&lt;TabHeader/&gt;" />
-                  <marker date="1507130579290" expanded="true" signature="3143:3217" ph="&lt;View/&gt;" />
-                  <marker date="1507130579290" expanded="true" signature="3247:3313" ph="&lt;Tab/&gt;" />
-                  <marker date="1507130579290" expanded="true" signature="3322:3392" ph="&lt;Tab/&gt;" />
-                  <marker date="1507130579290" expanded="true" signature="3401:3467" ph="&lt;Tab/&gt;" />
-                  <marker date="1507130579290" expanded="true" signature="3476:3560" ph="&lt;Tab/&gt;" />
-                  <marker date="1507130579290" expanded="true" signature="3741:4035" ph="..." />
-                  <marker date="1507130579290" expanded="true" signature="4108:4414" ph="&lt;Collapsible/&gt;" />
-                  <marker date="1507130579290" expanded="true" signature="4181:4393" ph="&lt;View/&gt;" />
-                  <marker date="1507130579290" expanded="true" signature="4228:4347" ph="&lt;Header/&gt;" />
-                  <marker date="1507130579290" expanded="true" signature="4249:4327" ph="&lt;View/&gt;" />
+                  <marker date="1507131367821" expanded="true" signature="797:798" ph="//..." />
+                  <marker date="1507131367821" expanded="true" signature="797:807" ph="//..." />
+                  <marker date="1507131367821" expanded="true" signature="816:1124" ph="..." />
+                  <marker date="1507131367821" expanded="true" signature="1244:1474" ph="&lt;List/&gt;" />
+                  <marker date="1507131367821" expanded="true" signature="1256:1463" ph="&lt;MyCustomScrollView/&gt;" />
+                  <marker date="1507131367821" expanded="true" signature="1313:1425" ph="&lt;ListItem/&gt;" />
+                  <marker date="1507131367821" expanded="true" signature="1569:1598" ph="{...}" />
+                  <marker date="1507131367821" expanded="true" signature="1718:1975" ph="..." />
+                  <marker date="1507131367821" expanded="true" signature="2038:2296" ph="&lt;List/&gt;" />
+                  <marker date="1507131367821" expanded="true" signature="2049:2286" ph="&lt;FlatList/&gt;" />
+                  <marker date="1507131367821" expanded="true" signature="2186:2270" ph="&lt;ListItem/&gt;" />
+                  <marker date="1507131367821" expanded="true" signature="2385:2412" ph="{...}" />
+                  <marker date="1507131367821" expanded="true" signature="2500:2820" ph="..." />
+                  <marker date="1507131367821" expanded="true" signature="3038:4150" ph="&lt;Collapsible/&gt;" />
+                  <marker date="1507131367821" expanded="true" signature="3107:4133" ph="&lt;View/&gt;" />
+                  <marker date="1507131367821" expanded="true" signature="3145:4121" ph="&lt;Tabs/&gt;" />
+                  <marker date="1507131367821" expanded="true" signature="3256:3650" ph="[...]" />
+                  <marker date="1507131367821" expanded="true" signature="3668:3785" ph="&lt;TabHeader/&gt;" />
+                  <marker date="1507131367821" expanded="true" signature="3690:3764" ph="&lt;View/&gt;" />
+                  <marker date="1507131367821" expanded="true" signature="3794:3860" ph="&lt;Tab/&gt;" />
+                  <marker date="1507131367821" expanded="true" signature="3869:3939" ph="&lt;Tab/&gt;" />
+                  <marker date="1507131367821" expanded="true" signature="3948:4014" ph="&lt;Tab/&gt;" />
+                  <marker date="1507131367821" expanded="true" signature="4023:4107" ph="&lt;Tab/&gt;" />
+                  <marker date="1507131367821" expanded="true" signature="4288:4582" ph="..." />
+                  <marker date="1507131367821" expanded="true" signature="4655:4961" ph="&lt;Collapsible/&gt;" />
+                  <marker date="1507131367821" expanded="true" signature="4728:4940" ph="&lt;View/&gt;" />
+                  <marker date="1507131367821" expanded="true" signature="4775:4894" ph="&lt;Header/&gt;" />
+                  <marker date="1507131367821" expanded="true" signature="4796:4874" ph="&lt;View/&gt;" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -310,7 +307,7 @@
       <workItem from="1507103775818" duration="206000" />
       <workItem from="1507104016050" duration="11000" />
       <workItem from="1507104053941" duration="4722000" />
-      <workItem from="1507115506037" duration="14636000" />
+      <workItem from="1507115506037" duration="15658000" />
     </task>
     <task id="LOCAL-00001" summary="rename project">
       <created>1507080403501</created>
@@ -330,7 +327,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27960000" />
+    <option name="totallyTimeSpent" value="28982000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
@@ -789,37 +786,37 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="186">
-            <caret line="164" column="35" lean-forward="false" selection-start-line="164" selection-start-column="35" selection-end-line="164" selection-end-column="35" />
+          <first_editor relative-caret-position="68">
+            <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
             <folding>
-              <marker date="1507130579290" expanded="true" signature="250:251" ph="//..." />
-              <marker date="1507130579290" expanded="true" signature="250:260" ph="//..." />
-              <marker date="1507130579290" expanded="true" signature="269:577" ph="..." />
-              <marker date="1507130579290" expanded="true" signature="697:927" ph="&lt;List/&gt;" />
-              <marker date="1507130579290" expanded="true" signature="709:916" ph="&lt;MyCustomScrollView/&gt;" />
-              <marker date="1507130579290" expanded="true" signature="766:878" ph="&lt;ListItem/&gt;" />
-              <marker date="1507130579290" expanded="true" signature="1022:1051" ph="{...}" />
-              <marker date="1507130579290" expanded="true" signature="1171:1428" ph="..." />
-              <marker date="1507130579290" expanded="true" signature="1491:1749" ph="&lt;List/&gt;" />
-              <marker date="1507130579290" expanded="true" signature="1502:1739" ph="&lt;FlatList/&gt;" />
-              <marker date="1507130579290" expanded="true" signature="1639:1723" ph="&lt;ListItem/&gt;" />
-              <marker date="1507130579290" expanded="true" signature="1838:1865" ph="{...}" />
-              <marker date="1507130579290" expanded="true" signature="1953:2273" ph="..." />
-              <marker date="1507130579290" expanded="true" signature="2491:3603" ph="&lt;Collapsible/&gt;" />
-              <marker date="1507130579290" expanded="true" signature="2560:3586" ph="&lt;View/&gt;" />
-              <marker date="1507130579290" expanded="true" signature="2598:3574" ph="&lt;Tabs/&gt;" />
-              <marker date="1507130579290" expanded="true" signature="2709:3103" ph="[...]" />
-              <marker date="1507130579290" expanded="true" signature="3121:3238" ph="&lt;TabHeader/&gt;" />
-              <marker date="1507130579290" expanded="true" signature="3143:3217" ph="&lt;View/&gt;" />
-              <marker date="1507130579290" expanded="true" signature="3247:3313" ph="&lt;Tab/&gt;" />
-              <marker date="1507130579290" expanded="true" signature="3322:3392" ph="&lt;Tab/&gt;" />
-              <marker date="1507130579290" expanded="true" signature="3401:3467" ph="&lt;Tab/&gt;" />
-              <marker date="1507130579290" expanded="true" signature="3476:3560" ph="&lt;Tab/&gt;" />
-              <marker date="1507130579290" expanded="true" signature="3741:4035" ph="..." />
-              <marker date="1507130579290" expanded="true" signature="4108:4414" ph="&lt;Collapsible/&gt;" />
-              <marker date="1507130579290" expanded="true" signature="4181:4393" ph="&lt;View/&gt;" />
-              <marker date="1507130579290" expanded="true" signature="4228:4347" ph="&lt;Header/&gt;" />
-              <marker date="1507130579290" expanded="true" signature="4249:4327" ph="&lt;View/&gt;" />
+              <marker date="1507131367821" expanded="true" signature="797:798" ph="//..." />
+              <marker date="1507131367821" expanded="true" signature="797:807" ph="//..." />
+              <marker date="1507131367821" expanded="true" signature="816:1124" ph="..." />
+              <marker date="1507131367821" expanded="true" signature="1244:1474" ph="&lt;List/&gt;" />
+              <marker date="1507131367821" expanded="true" signature="1256:1463" ph="&lt;MyCustomScrollView/&gt;" />
+              <marker date="1507131367821" expanded="true" signature="1313:1425" ph="&lt;ListItem/&gt;" />
+              <marker date="1507131367821" expanded="true" signature="1569:1598" ph="{...}" />
+              <marker date="1507131367821" expanded="true" signature="1718:1975" ph="..." />
+              <marker date="1507131367821" expanded="true" signature="2038:2296" ph="&lt;List/&gt;" />
+              <marker date="1507131367821" expanded="true" signature="2049:2286" ph="&lt;FlatList/&gt;" />
+              <marker date="1507131367821" expanded="true" signature="2186:2270" ph="&lt;ListItem/&gt;" />
+              <marker date="1507131367821" expanded="true" signature="2385:2412" ph="{...}" />
+              <marker date="1507131367821" expanded="true" signature="2500:2820" ph="..." />
+              <marker date="1507131367821" expanded="true" signature="3038:4150" ph="&lt;Collapsible/&gt;" />
+              <marker date="1507131367821" expanded="true" signature="3107:4133" ph="&lt;View/&gt;" />
+              <marker date="1507131367821" expanded="true" signature="3145:4121" ph="&lt;Tabs/&gt;" />
+              <marker date="1507131367821" expanded="true" signature="3256:3650" ph="[...]" />
+              <marker date="1507131367821" expanded="true" signature="3668:3785" ph="&lt;TabHeader/&gt;" />
+              <marker date="1507131367821" expanded="true" signature="3690:3764" ph="&lt;View/&gt;" />
+              <marker date="1507131367821" expanded="true" signature="3794:3860" ph="&lt;Tab/&gt;" />
+              <marker date="1507131367821" expanded="true" signature="3869:3939" ph="&lt;Tab/&gt;" />
+              <marker date="1507131367821" expanded="true" signature="3948:4014" ph="&lt;Tab/&gt;" />
+              <marker date="1507131367821" expanded="true" signature="4023:4107" ph="&lt;Tab/&gt;" />
+              <marker date="1507131367821" expanded="true" signature="4288:4582" ph="..." />
+              <marker date="1507131367821" expanded="true" signature="4655:4961" ph="&lt;Collapsible/&gt;" />
+              <marker date="1507131367821" expanded="true" signature="4728:4940" ph="&lt;View/&gt;" />
+              <marker date="1507131367821" expanded="true" signature="4775:4894" ph="&lt;Header/&gt;" />
+              <marker date="1507131367821" expanded="true" signature="4796:4874" ph="&lt;View/&gt;" />
             </folding>
           </first_editor>
           <second_editor />
