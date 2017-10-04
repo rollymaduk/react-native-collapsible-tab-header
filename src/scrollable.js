@@ -5,7 +5,8 @@ import withLifecycle from '@hocs/with-lifecycle';
 import { compose, getContext, withProps, withHandlers } from 'recompose';
 
 const scrollEventThrottle = 1;
-export default function (AnimatedList: any) {
+export default function (ScrollableComponent: any) {
+  const AnimatedList = Animated.createAnimatedComponent(ScrollableComponent)
   const Component = ({
     onScrollEndDrag,
     onMomentumScrollBegin,

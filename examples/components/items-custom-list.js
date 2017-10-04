@@ -3,11 +3,11 @@ import React from 'react';
 import { ScrollView } from 'react-native';
 import { defaultProps } from 'recompose';
 import { ListItem, List } from 'react-native-elements';
-import { Scrollable } from '../../src';
+import { Scrollable } from 'react-native-collapsible-tab-header';
 import createData from '../data';
 import type { dataType } from '../types';
 
-const MyCustomScrollView = Scrollable(ScrollView);
+const MyCustomScrollView = Scrollable();
 
 const Component = ({ data }: {data: Array<dataType>}) => (
   <List>

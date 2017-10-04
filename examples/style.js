@@ -1,6 +1,6 @@
 import { Constants } from 'expo';
 
-const CENTER = 'centeer';
+const CENTER = 'center';
 export default {
   tabs: {
     backgroundColor: '#22E0D1',
@@ -13,13 +13,13 @@ export default {
   },
   tab: { padding: 2 },
   label: { fontSize: 10 },
-  container: { flex: 1, alignItems: CENTER, justifyItems: CENTER },
+  container: { flex: 1},
 
 
   homeContainer: {
     flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
+    alignItems: CENTER,
+    justifyContent: CENTER,
     paddingTop: Constants.statusBarHeight,
     backgroundColor: '#ecf0f1',
   },

@@ -2,8 +2,8 @@
 import React from 'react';
 import { View, Text } from 'react-native';
 import { compose, defaultProps } from 'recompose';
+import { Collapsible, Tabs, TabHeader, Tab } from 'react-native-collapsible-tab-header';
 import { ItemsScrollView, ItemsFlatList, ItemsCustomList } from '../components/index';
-import { Collapsible, Tabs, TabHeader, Tab } from '../../src/index.js';
 import styles from '../style';
 
 
@@ -32,17 +32,19 @@ const Component = ({ style }: {style: Object}) => (
             <Text>This is a header content</Text>
           </View>
         </TabHeader>
-        <Tab key={'flat-List'}>
+        <Tab key={'flat-list'}>
           <ItemsFlatList />
         </Tab>
         <Tab key={'scroll-view'}>
           <ItemsScrollView />
         </Tab>
         <Tab key={'custom'}>
-          |<ItemsCustomList />
+          <ItemsCustomList />
         </Tab>
         <Tab key={'content'}>
-          <Text> this is just a content </Text>
+          <View style={{ paddingTop: 250 }}>
+            <Text> this is just a content </Text>
+          </View>
         </Tab>
       </Tabs>
     </View>

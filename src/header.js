@@ -6,16 +6,14 @@ import { compose, getContext, withProps, defaultProps } from 'recompose';
 import style from './style';
 
 
-const Component = ({ children, translateY, height, styles }: any) => {
-  return (
-    <Animated.View style={[style.header(height), styles, { transform: [{ translateY }] }]} >
-      {children}
-    </Animated.View>
-  );
-};
+const Component = ({ children, translateY, height, styles }: any) => (
+  <Animated.View style={[style.header(height), styles, { transform: [{ translateY }] }]} >
+    {children}
+  </Animated.View>
+);
 
 export default compose(
-  defaultProps({ styles: { justifyContent: 'flex-end' } }),
+  defaultProps({ styles: { justifyContent: 'flex-end' }, tabHeight: 0 }),
   getContext({
     collapsibleProps: PropTypes.object,
   }),
