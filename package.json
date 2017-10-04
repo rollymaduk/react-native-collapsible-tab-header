@@ -1,6 +1,6 @@
 {
   "name": "react-native-collapsible-tab-header",
-  "version": "0.0.1-semantic",
+  "version": "0.0.0-semantically-released",
   "description": "Group of react-native components to ease implementation of collapsible headers with tabs",
   "main": "./src/index.js",
   "repository": {
