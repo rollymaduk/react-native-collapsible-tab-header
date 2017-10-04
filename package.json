@@ -3,12 +3,21 @@
   "version": "1.0.0",
   "description": "Group of react-native components to ease implementation of collapsible headers with tabs",
   "main": "index.js",
+  "url": "https://github.com/rollymaduk/react-native-collapsible-tab-header",
   "author": "Ronald Maduka",
   "license": "MIT",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "ava"
+  },
   "devDependencies": {
     "ava": "^0.22.0",
     "babel-eslint": "^8.0.1",
     "babel-preset-env": "^1.6.0",
+    "babel-preset-expo": "^4.0.0",
     "babel-register": "^6.26.0",
     "chai": "^4.1.1",
     "cz-conventional-changelog": "^2.0.0",

@@ -3,8 +3,7 @@
   "env": {
     "development": {
       "plugins": [
-        "transform-react-jsx-source",
-        "inline-import-graphql-ast"
+        "transform-react-jsx-source"
       ]
     }
   }
