@@ -84,6 +84,14 @@ export const getWithProps = ({ scrollAnim, offsetAnim, height, style, collapseHe
   });
 };
 
+export const getTabContentStyle = ({ children, height }: any) => {
+  children.map((child) => {
+    if (child.type.displayName === 'scrollableComponent') {
+      return { paddingTop: height };
+    }
+  });
+  return {};
+};
 
 export const getHeaderAndScenes = ({ children }: any) => {
   const result = { header: null, scenes: {} };

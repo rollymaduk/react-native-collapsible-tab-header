@@ -1,16 +1,23 @@
 // @flow
 import React from 'react';
-import { setDisplayName, compose } from 'recompose';
+import { setDisplayName, compose, withProps, getContext } from 'recompose';
+import { getTabContentStyle } from '../helpers';
 
 const DISPLAY_NAME = 'CollapsibleTabItem';
 
-const Component = ({ children }) => (
-  React.Children.only(children)
+const Component = ({ children, style }) => (
+  React.Children.only(children, { ...style })
 );
-
-Component.propTypes = {};
-Component.defaultProps = {};
 
 export default compose(
   setDisplayName(DISPLAY_NAME),
+  getContext({
+    collapsibleProps: PropTypes.object,
+  }),
+  withProps(({ collapsibleProps, children }) => {
+    const { height } = collapsibleProps;
+    return {
+      style: getTabContentStyle({ children, height }),
+    };
+  }),
 )(Component);

@@ -2,8 +2,9 @@
 import React from 'react';
 import { Animated } from 'react-native';
 import withLifecycle from '@hocs/with-lifecycle';
-import { compose, getContext, withProps, withHandlers } from 'recompose';
+import { compose, getContext, withProps, withHandlers,setDisplayName } from 'recompose';
 
+const DISPLAY_NAME = 'scrollableComponent'
 const scrollEventThrottle = 1;
 export default function (ScrollableComponent: any) {
   const AnimatedList = Animated.createAnimatedComponent(ScrollableComponent)
@@ -30,7 +31,7 @@ export default function (ScrollableComponent: any) {
   );
 
   return compose(
-
+    setDisplayName(DISPLAY_NAME),
     getContext({
       collapsibleProps: React.PropTypes.object,
     }),
