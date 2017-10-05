@@ -1,25 +1,29 @@
 // @flow
 import React from 'react';
+import { Animated, View } from 'react-native';
 import PropTypes from 'prop-types';
-import { setDisplayName, compose, withProps, getContext, defaultProps } from 'recompose';
-
+import { setDisplayName, compose,
+  defaultProps, onlyUpdateForKeys } from 'recompose';
+import Tab from './tab-not-scrollable';
+import ScrollableTab from './tab-scrollable';
 
 const DISPLAY_NAME = 'CollapsibleTabItem';
 
-const Component = ({ children, style }) => {
-  const child = React.Children.only(children);
-  return React.cloneElement(child, { style });
-};
+const Component = ({ children, hasScrollable }) => (
+
+  (hasScrollable) ?
+    <ScrollableTab>
+      {children}
+    </ScrollableTab> :
+    <Tab>
+      {children}
+    </Tab>
+
+)
+
+;
 
 export default compose(
   setDisplayName(DISPLAY_NAME),
   defaultProps({ hasScrollable: true }),
-  getContext({
-    collapsibleProps: PropTypes.object,
-  }),
-  withProps(({ collapsibleProps, hasScrollable }) => {
-    const { height } = collapsibleProps;
-    const style = (!hasScrollable) ? { paddingTop: height } : {};
-    return { style };
-  }),
 )(Component);

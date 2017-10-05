@@ -5,7 +5,7 @@ import { has } from 'lodash';
 import PropTypes from 'prop-types';
 import { TabBar } from 'react-native-tab-view';
 import { setDisplayName, compose, withHandlers,
-  withState, onlyUpdateForKeys, defaultProps, withProps, getContext } from 'recompose';
+  onlyUpdateForKeys, defaultProps, withProps, getContext, flattenProp } from 'recompose';
 import Header from '../header';
 import Icon from '../utils/icon';
 import type { Iroute } from '../types';
@@ -39,6 +39,7 @@ export default compose(
   setDisplayName(DISPLAY_NAME),
   getContext({
     collapsibleProps: PropTypes.object,
+    collapsibleTabsProps: PropTypes.object,
   }),
   defaultProps({
     iconStyle: {},
@@ -46,6 +47,7 @@ export default compose(
     indicatorStyle: {},
     styles: {},
   }),
+  flattenProp('collapsibleTabsProps'),
   withProps(({ collapsibleProps, iconStyle, activeIconStyle,
     inactiveIconStyle, labelStyle, indicatorStyle, styles }) => {
     const { height, clampedScroll } = collapsibleProps;
@@ -62,11 +64,10 @@ export default compose(
       }),
     });
   }),
-  withState('tabHeight', 'setHeight', 0),
   withHandlers({
-    onLayout: ({ setHeight }) => (e) => {
+    onLayout: ({ setTabHeight }) => (e) => {
       const { height } = e.nativeEvent.layout;
-      setHeight(height);
+      setTabHeight(height);
     },
     renderIcon: ({ activeIconStyle, inactiveIconStyle }) =>
       (scene: {route: Iroute}) => {

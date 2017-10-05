@@ -1,12 +1,15 @@
 // @flow
 import React from 'react';
 import { has, omit } from 'lodash';
+import PropTypes from 'prop-types';
 import { Dimensions } from 'react-native';
 import { TabViewAnimated } from 'react-native-tab-view';
-import { compose, withProps, withHandlers, withState, defaultProps } from 'recompose';
+import { compose, withProps, withHandlers, withState, defaultProps, withContext } from 'recompose';
 import { getHeaderAndScenes } from '../helpers';
 
-const Component = ({ style, onIndexChange, initialLayout, renderHeader, renderScenes, navigationState }: any) => (
+const Component = ({ onIndexChange, initialLayout,
+  renderHeader, renderScenes, navigationState,
+}: any) => (
   <TabViewAnimated
     initialLayout={initialLayout}
     navigationState={navigationState}
@@ -16,8 +19,6 @@ const Component = ({ style, onIndexChange, initialLayout, renderHeader, renderSc
   />
 );
 
-Component.propTypes = {};
-Component.defaultProps = {};
 
 export default compose(
   defaultProps({ initialLayout: {
@@ -30,6 +31,7 @@ export default compose(
     return { header, scenes };
   }),
   withState('navigationState', 'setState', ({ routes }) => ({ index: 0, routes })),
+  withState('tabHeight', 'setTabHeight', 0),
   withHandlers({
     onIndexChange: ({ setState }) => (index) => {
       setState(state => ({ ...state, index }));
@@ -43,4 +45,7 @@ export default compose(
       }
     },
   }),
+  withContext({
+    collapsibleTabsProps: PropTypes.object,
+  }, ({ tabHeight, setTabHeight }) => ({ collapsibleTabsProps: { tabHeight, setTabHeight } })),
 )(Component);

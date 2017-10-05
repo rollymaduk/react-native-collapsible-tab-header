@@ -5,6 +5,7 @@ import PropTypes from 'prop-types';
 import { compose, getContext, withProps, defaultProps } from 'recompose';
 import style from './style';
 
+import { getTranslateY } from './helpers';
 
 const Component = ({ children, translateY, height, styles }: any) => (
   <Animated.View style={[style.header(height), styles, { transform: [{ translateY }] }]} >
@@ -18,13 +19,11 @@ export default compose(
     collapsibleProps: PropTypes.object,
   }),
   withProps(({ collapsibleProps, tabHeight }) => {
-    const { height, clampedScroll } = collapsibleProps;
+    const { height, clampedScroll, offsetFromTop } = collapsibleProps;
     return ({
-      translateY: clampedScroll.interpolate({
-        inputRange: [0, height],
-        outputRange: [0, -(height - Math.round(tabHeight))],
-        extrapolate: 'clamp',
-      }),
+      translateY: getTranslateY({ clampedScroll,
+        height,
+        bottomOffset: tabHeight + offsetFromTop}),
       height,
     });
   }),

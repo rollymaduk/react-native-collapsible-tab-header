@@ -1,7 +1,8 @@
 // @flow
-import { Animated, Dimensions } from 'react-native';
+import { Animated, Dimensions, Platform } from 'react-native';
 
 const WINDOW = 'window';
+const STATUS_BAR_HEIGHT = Platform.select({ ios: 20, android: 24 });
 
 const ScrollableMethods = class ScrollableMethods {
     _scrollValue=0;
@@ -62,6 +63,7 @@ export const getHeight = (height: string | number, base: ?number) => {
 export const getDefaultValues = (height: string | number = '30%') => ({
   height,
   collapseHeight: '50%',
+  hasNavBar: true,
   style: {},
   scrollAnim: new Animated.Value(0),
   offsetAnim: new Animated.Value(0),
@@ -69,29 +71,38 @@ export const getDefaultValues = (height: string | number = '30%') => ({
 
 });
 
-export const getWithProps = ({ scrollAnim, offsetAnim, height, style, collapseHeight }: any) => {
+export const getWithProps = ({ scrollAnim, offsetAnim, height,
+  style, collapseHeight, offsetFromTop, hasNavBar }: any) => {
   const calculatedHeight = getHeight(height, Dimensions.get(WINDOW).height);
+  const calculatedOffsetFromTop = (hasNavBar) ? 0 : offsetFromTop || STATUS_BAR_HEIGHT;
   return ({
     style: { ...{ flex: 1 }, ...style },
     height: calculatedHeight,
+    offsetFromTop: calculatedOffsetFromTop,
     collapseHeight: (parseFloat(collapseHeight) / 100) * calculatedHeight,
     clampedScroll: Animated.diffClamp(Animated.add(
       scrollAnim.interpolate({
         inputRange: [0, 1],
         outputRange: [0, 1],
         extrapolateLeft: 'clamp',
-      }), offsetAnim), 0, calculatedHeight),
+      }), offsetAnim), calculatedOffsetFromTop, calculatedHeight),
   });
 };
 
-export const getTabContentStyle = ({ children, height }: any) => {
-  children.map((child) => {
-    if (child.type.displayName === 'scrollableComponent') {
-      return { paddingTop: height };
-    }
+export const getTranslateY = (
+  {
+    clampedScroll,
+    height,
+    bottomOffset = 0,
+    topOffset = 0,
+  }: any,
+) =>
+  clampedScroll.interpolate({
+    inputRange: [topOffset, height],
+    outputRange: [topOffset, -(height - Math.round(bottomOffset))],
+    extrapolate: 'clamp',
   });
-  return {};
-};
+
 
 export const getHeaderAndScenes = ({ children }: any) => {
   const result = { header: null, scenes: {} };

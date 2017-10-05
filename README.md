@@ -98,7 +98,7 @@ const PRODUCT_ICON = 'grid';
 const REPORT_ICON = 'chart';
 
 const Component = ({ style }: {style: Object}) => (
-  <Collapsible style={{ backgroundColor: 'snow' }} height={'35%'}>
+  <Collapsible hasNavBar={false} style={{ backgroundColor: 'snow' }} height={'35%'}>
     <View style={style.container} >
       <Tabs
         style={style.tabs}
@@ -151,7 +151,7 @@ or without tabs
     
     
     const Component = ({ style }: {style: Object}) => (
-      <Collapsible style={{ backgroundColor: 'snow' }} height={'35%'}>
+      <Collapsible hasNavBar={false} style={{ backgroundColor: 'snow' }} height={'35%'}>
         <View style={style.container} >
     
           <Header>
@@ -178,7 +178,9 @@ React native parent component to create collapsible component <br>
 **Props**
 1. **height(number | string)-default('30%')**: height of collapsible header in either percentage or fixed length.
 2. **collapseHeight(string)-default('50%)**: height in header to respond with closing or opening header during a scroll. 
- 
+3. **offsetFromTop(number)-default(_20 for android_ _24 for ios_,_0 when hasNavBar is false_)**: offset to from top when collapsed
+ to manage situations such as when there is no navbar,or you wish to keep a part of the header showing when collapsed.
+4. **hasNavBar(bool)-default(true)** helps with offsetFromTop for determining offset for status bar of device.
 #### Tabs:
 Parent Component to manage tabs for collapsible
  <br/> **Props** 
@@ -201,7 +203,8 @@ react component for header <br/>
 style for header component;
 
 #### Tab:
-Tab component to display tab content <br/>
+Tab component to display tab content <br/> _note this is a pure component and will update 
+contents when hasScrollable changes to improve performance: it should generally work well_
 **Props**
 1. **key(string)**: key same as key in routes
 2. **hasScrollable(boolean)-default(_true_)**:  set this to fault when the tab content is not a scrollable
