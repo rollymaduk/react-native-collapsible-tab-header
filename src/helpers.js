@@ -2,7 +2,10 @@
 import { Animated, Dimensions, Platform } from 'react-native';
 
 const WINDOW = 'window';
-const STATUS_BAR_HEIGHT = Platform.select({ ios: 20, android: 24 });
+
+const getStatusBarHeight = () => ((Platform.OS === 'ios') ? 20 : 24);
+
+// const STATUS_BAR_HEIGHT = Platform.select({ ios: 20, android: 24 });
 
 const ScrollableMethods = class ScrollableMethods {
     _scrollValue=0;
@@ -74,7 +77,7 @@ export const getDefaultValues = (height: string | number = '30%') => ({
 export const getWithProps = ({ scrollAnim, offsetAnim, height,
   style, collapseHeight, offsetFromTop, hasNavBar }: any) => {
   const calculatedHeight = getHeight(height, Dimensions.get(WINDOW).height);
-  const calculatedOffsetFromTop = (hasNavBar) ? 0 : offsetFromTop || STATUS_BAR_HEIGHT;
+  const calculatedOffsetFromTop = (hasNavBar) ? 0 : offsetFromTop || getStatusBarHeight();
   return ({
     style: { ...{ flex: 1 }, ...style },
     height: calculatedHeight,
