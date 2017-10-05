@@ -8,7 +8,7 @@ import styles from '../style';
 
 
 const Component = ({ style }: {style: Object}) => (
-  <Collapsible style={{ backgroundColor: 'snow' }} height={'35%'}>
+  <Collapsible hasNavBar={false} style={{ backgroundColor: 'snow' }} height={'35%'}>
     <View style={style.container} >
       <Header>
         <View>

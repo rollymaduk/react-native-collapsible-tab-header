@@ -14,7 +14,7 @@ const PRODUCT_ICON = 'grid';
 const REPORT_ICON = 'chart';
 
 const Component = ({ style }: {style: Object}) => (
-  <Collapsible style={{ backgroundColor: 'snow' }} height={'35%'}>
+  <Collapsible hasNavBar={false} style={{ backgroundColor: 'snow' }} height={'35%'}>
     <View style={style.container} >
       <Tabs
         style={style.tabs}

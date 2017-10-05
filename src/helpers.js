@@ -88,7 +88,7 @@ export const getWithProps = ({ scrollAnim, offsetAnim, height,
         inputRange: [0, 1],
         outputRange: [0, 1],
         extrapolateLeft: 'clamp',
-      }), offsetAnim), calculatedOffsetFromTop, calculatedHeight),
+      }), offsetAnim), calculatedOffsetFromTop, calculatedHeight + calculatedOffsetFromTop),
   });
 };
 
