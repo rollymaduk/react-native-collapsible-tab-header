@@ -27,6 +27,7 @@ export default compose(
     const translateY = getTranslateY({ clampedScroll,
       height,
       bottomOffset: tabHeight + offsetFromTop,
+        topOffset:offsetFromTop,
     });
     return { translateY, height };
   }),
