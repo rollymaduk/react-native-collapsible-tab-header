@@ -4581,9 +4581,9 @@ react-native-button@^2.0.0:
   dependencies:
     prop-types "^15.5.10"
 
-react-native-collapsible-tab-header@^1.1.5:
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/react-native-collapsible-tab-header/-/react-native-collapsible-tab-header-1.1.5.tgz#c56127a95241e5818533df97b464f9a8fbc9f076"
+react-native-collapsible-tab-header@^1.1.6:
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/react-native-collapsible-tab-header/-/react-native-collapsible-tab-header-1.1.6.tgz#895820de51feb1dd597a5bd642366c8051a754dd"
   dependencies:
     "@hocs/with-lifecycle" "^0.2.0"
     lodash "^4.17.4"
