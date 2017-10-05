@@ -86,9 +86,9 @@ export const getWithProps = ({ scrollAnim, offsetAnim, height,
     clampedScroll: Animated.diffClamp(Animated.add(
       scrollAnim.interpolate({
         inputRange: [0, 1],
-        outputRange: [0, 1],
+        outputRange: [calculatedOffsetFromTop, 1],
         extrapolateLeft: 'clamp',
-      }), offsetAnim), calculatedOffsetFromTop, calculatedHeight + calculatedOffsetFromTop),
+      }), offsetAnim), calculatedOffsetFromTop, calculatedHeight),
   });
 };
 
