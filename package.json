@@ -5,7 +5,7 @@
   "main": "./src/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rollymaduk/react-native-collapsible-tab-header"
+    "url": "git+https://github.com/rollymaduk/react-native-collapsible-tab-header.git"
   },
   "author": "Ronald Maduka",
   "license": "MIT",
