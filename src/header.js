@@ -7,8 +7,11 @@ import style from './style';
 
 import { getTranslateY } from './helpers';
 
-const Component = ({ children, translateY, height, styles }: any) => (
-  <Animated.View style={[style.header(height), styles, { transform: [{ translateY }] }]} >
+const Component = ({ children, translateY, height, styles, onLayout }: any) => (
+  <Animated.View
+    onLayout={onLayout}
+    style={[style.header(height), styles, { transform: [{ translateY }] }]}
+  >
     {children}
   </Animated.View>
 );
@@ -23,7 +26,8 @@ export default compose(
     return ({
       translateY: getTranslateY({ clampedScroll,
         height,
-        bottomOffset: tabHeight + offsetFromTop,topOffset:offsetFromTop}),
+        bottomOffset: tabHeight + offsetFromTop,
+        topOffset: offsetFromTop }),
       height,
     });
   }),

@@ -1,7 +1,7 @@
 // @flow
 import React from 'react';
 import { View, Animated } from 'react-native';
-import { has } from 'lodash';
+import { has, defer } from 'lodash';
 import PropTypes from 'prop-types';
 import { TabBar } from 'react-native-tab-view';
 import { setDisplayName, compose, withHandlers,
@@ -20,20 +20,26 @@ const DEFAULT_INDICATOR_STYLE = { backgroundColor: DEFAULT_COLOR };
 const DEFAULT_HEADER_STYLE = { backgroundColor: DEFAULT_COLOR, flex: 1 };
 const DISPLAY_NAME = 'CollapsibleTabHeader';
 
-const Component = ({ children, onLayout, opacity, tabHeight, styles, ...rest }: any) => (
+const Component = ({
+  children, onHeaderContentLayout, onTabBarLayout,
+  onLayout, opacity, tabHeight, styles, ...rest
+}: any) => (
   <Header tabHeight={tabHeight}>
-    <View style={styles}>
-      <Animated.View style={{ opacity }}>
-        {React.Children.only(children)}
-      </Animated.View>
-    </View>
-    <View onLayout={onLayout}>
+    <Animated.View onLayout={onHeaderContentLayout} style={[{ opacity, flex: 1 }, styles]}>
+      {React.Children.only(children)}
+    </Animated.View>
+    <View onLayout={onTabBarLayout}>
       <TabBar
         {...rest}
       />
     </View>
   </Header>);
 
+Component.propTypes = {
+  onHeaderContentLayout: PropTypes.func,
+  onLayout: PropTypes.func,
+  styles: PropTypes.any,
+};
 
 export default compose(
   setDisplayName(DISPLAY_NAME),
@@ -65,7 +71,7 @@ export default compose(
     });
   }),
   withHandlers({
-    onLayout: ({ setTabHeight }) => (e) => {
+    onTabBarLayout: ({ setTabHeight }) => (e) => {
       const { height } = e.nativeEvent.layout;
       setTabHeight(height);
     },
