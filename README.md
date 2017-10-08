@@ -201,6 +201,8 @@ react component for header <br/>
 **Props:** <br/>
 1. **styles(Object)-default(_{ backgroundColor: #FFFFFF, flex: 1 }_)**:
 style for header component;
+2. **onHeaderContentLayout(func))**:function to return layout props for header content without tab dimensions
+3.**onLayout(func))**:function to return layout props for tabheader
 
 #### Tab:
 Tab component to display tab content <br/> _note this is a pure component and will update 
