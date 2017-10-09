@@ -24,10 +24,12 @@ const Component = ({
   children, onHeaderContentLayout, onTabBarLayout,
   onLayout, opacity, tabHeight, styles, ...rest
 }: any) => (
-  <Header tabHeight={tabHeight}>
-    <Animated.View onLayout={onHeaderContentLayout} style={[{ opacity, flex: 1 }, styles]}>
-      {React.Children.only(children)}
-    </Animated.View>
+  <Header onLayout={onLayout} tabHeight={tabHeight}>
+    <View onLayout={onHeaderContentLayout} style={{ ...styles, flex: 1 }}>
+      <Animated.View style={[{ opacity, flex: 1 }]}>
+        {React.Children.only(children)}
+      </Animated.View>
+    </View>
     <View onLayout={onTabBarLayout}>
       <TabBar
         {...rest}
