@@ -6,9 +6,9 @@ import { Dimensions } from 'react-native';
 import { TabViewAnimated } from 'react-native-tab-view';
 import { compose, withProps, withHandlers, withState, defaultProps, withContext } from 'recompose';
 import { getHeaderAndScenes } from '../helpers';
-
+/* eslint react/prop-types:0 */
 const Component = ({ onIndexChange, initialLayout,
-  renderHeader, renderScenes, navigationState,
+  renderHeader, renderScenes, navigationState, swipeEnabled, ...rest
 }: any) => (
   <TabViewAnimated
     initialLayout={initialLayout}
@@ -16,9 +16,14 @@ const Component = ({ onIndexChange, initialLayout,
     renderScene={renderScenes}
     renderHeader={renderHeader}
     onIndexChange={onIndexChange}
+    swipeEnabled={swipeEnabled}
+    {...rest}
   />
 );
 
+Component.propTypes = {
+  swipeEnabled: PropTypes.bool,
+};
 
 export default compose(
   defaultProps({ initialLayout: {
@@ -26,7 +31,7 @@ export default compose(
     width: Dimensions.get('window').width,
   },
   }),
-  withProps(({ children, routes }) => {
+  withProps(({ children }) => {
     const { header, scenes } = getHeaderAndScenes({ children });
     return { header, scenes };
   }),
