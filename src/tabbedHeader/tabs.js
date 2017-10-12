@@ -8,7 +8,7 @@ import { compose, withProps, withHandlers, withState, defaultProps, withContext 
 import { getHeaderAndScenes } from '../helpers';
 /* eslint react/prop-types:0 */
 const Component = ({ onIndexChange, initialLayout,
-  renderHeader, renderScenes, navigationState, swipeEnabled, ...rest
+  renderHeader, renderScenes, navigationState, swipeEnabled
 }: any) => (
   <TabViewAnimated
     initialLayout={initialLayout}
@@ -17,7 +17,6 @@ const Component = ({ onIndexChange, initialLayout,
     renderHeader={renderHeader}
     onIndexChange={onIndexChange}
     swipeEnabled={swipeEnabled}
-    {...rest}
   />
 );
 
