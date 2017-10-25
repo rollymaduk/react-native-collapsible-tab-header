@@ -193,7 +193,8 @@ Parent Component to manage tabs for collapsible
 5. **labelStyle (object)-default(_{ fontSize: 12, color:#FFFFFF }_)** :style for in-active icons
 6. **indicatorStyle (object)-default(_{backgroundColor: #FFFFFF }_)** :style for in-active icons
 7. **swipeEnabled (bool)-default(_true_)** : enable/disable tab swipe navigation
-8. **All props from the excellent [react-native-tab-view tabBar](https://github.com/react-native-community/react-native-tab-view#tabbar-)**
+8. **tabsProps (object)-default(_undefined_)** : props for tabs, same as props for [tabViewAnimated](https://github.com/react-native-community/react-native-tab-view#tabviewanimated-)
+9. **All props from the excellent [react-native-tab-view tabBar](https://github.com/react-native-community/react-native-tab-view#tabbar-)**
 
 #### TabHeader:
 Header component for tabs <br/>
