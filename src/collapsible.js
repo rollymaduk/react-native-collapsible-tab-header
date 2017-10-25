@@ -26,6 +26,6 @@ export default compose(
   defaultProps(getDefaultValues()),
   withProps(getWithProps),
   withContext({
-    collapsibleProps: React.PropTypes.object,
+    collapsibleProps: PropTypes.object,
   }, props => ({ collapsibleProps: { ...props } })),
 )(Component);

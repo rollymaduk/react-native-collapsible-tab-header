@@ -6,11 +6,8 @@
   <component name="ChangeListManager">
     <list id="69f57527-19e8-40dd-aed5-72d11f6da7c1" name="optimize data load in examples" comment="" />
     <list default="true" id="b195b463-b3db-42c8-88a7-10c35ce978d4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tabbedHeader/tabs.js" afterPath="$PROJECT_DIR$/src/tabbedHeader/tabs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yarn.lock" afterPath="$PROJECT_DIR$/yarn.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/collapsible.js" afterPath="$PROJECT_DIR$/src/collapsible.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scrollable.js" afterPath="$PROJECT_DIR$/src/scrollable.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,21 +22,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="header.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tabbedHeader/header.js">
+        <entry file="file://$PROJECT_DIR$/src/header.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="33" column="12" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+            <state relative-caret-position="289">
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/header.js">
+      <file leaf-file-name="collapsible.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/collapsible.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="289">
+              <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+              <folding>
+                <element signature="e#9#35#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -54,11 +53,63 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="collapsible.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/collapsible.js">
+      <file leaf-file-name="view.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="28" column="19" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+            <state relative-caret-position="51">
+              <caret line="4" column="44" lean-forward="false" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="helpers.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/helpers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/list.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scrollable.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/scrollable.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+              <folding>
+                <element signature="e#9#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="types.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/types.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -67,73 +118,11 @@
       <file leaf-file-name="tabs.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tabbedHeader/tabs.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
+            <state relative-caret-position="-315">
               <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
               <folding>
                 <element signature="e#9#35#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="50" column="27" lean-forward="false" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="281">
-                <caret line="195" column="181" lean-forward="false" selection-start-line="195" selection-start-column="181" selection-end-line="195" selection-end-column="181" />
-                <folding>
-                  <marker date="1508956191679" expanded="true" signature="926:927" ph="//..." />
-                  <marker date="1508956191679" expanded="true" signature="926:936" ph="//..." />
-                  <marker date="1508956191679" expanded="true" signature="945:1262" ph="..." />
-                  <marker date="1508956191679" expanded="true" signature="1466:1696" ph="&lt;List/&gt;" />
-                  <marker date="1508956191679" expanded="true" signature="1478:1685" ph="&lt;MyCustomScrollView/&gt;" />
-                  <marker date="1508956191679" expanded="true" signature="1535:1647" ph="&lt;ListItem/&gt;" />
-                  <marker date="1508956191679" expanded="true" signature="1791:1820" ph="{...}" />
-                  <marker date="1508956191679" expanded="true" signature="1940:2197" ph="..." />
-                  <marker date="1508956191679" expanded="true" signature="2260:2518" ph="&lt;List/&gt;" />
-                  <marker date="1508956191679" expanded="true" signature="2271:2508" ph="&lt;FlatList/&gt;" />
-                  <marker date="1508956191679" expanded="true" signature="2408:2492" ph="&lt;ListItem/&gt;" />
-                  <marker date="1508956191679" expanded="true" signature="2607:2634" ph="{...}" />
-                  <marker date="1508956191679" expanded="true" signature="2722:3042" ph="..." />
-                  <marker date="1508956191679" expanded="true" signature="3260:4411" ph="&lt;Collapsible/&gt;" />
-                  <marker date="1508956191679" expanded="true" signature="3347:4394" ph="&lt;View/&gt;" />
-                  <marker date="1508956191679" expanded="true" signature="3385:4382" ph="&lt;Tabs/&gt;" />
-                  <marker date="1508956191679" expanded="true" signature="3496:3890" ph="[...]" />
-                  <marker date="1508956191679" expanded="true" signature="3908:4025" ph="&lt;TabHeader/&gt;" />
-                  <marker date="1508956191679" expanded="true" signature="3930:4004" ph="&lt;View/&gt;" />
-                  <marker date="1508956191679" expanded="true" signature="4034:4100" ph="&lt;Tab/&gt;" />
-                  <marker date="1508956191679" expanded="true" signature="4109:4179" ph="&lt;Tab/&gt;" />
-                  <marker date="1508956191679" expanded="true" signature="4188:4253" ph="&lt;Tab/&gt;" />
-                  <marker date="1508956191679" expanded="true" signature="4262:4368" ph="&lt;Tab/&gt;" />
-                  <marker date="1508956191679" expanded="true" signature="4549:4843" ph="..." />
-                  <marker date="1508956191679" expanded="true" signature="4916:5240" ph="&lt;Collapsible/&gt;" />
-                  <marker date="1508956191679" expanded="true" signature="5007:5219" ph="&lt;View/&gt;" />
-                  <marker date="1508956191679" expanded="true" signature="5054:5173" ph="&lt;Header/&gt;" />
-                  <marker date="1508956191679" expanded="true" signature="5075:5153" ph="&lt;View/&gt;" />
-                </folding>
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package-lock.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -193,7 +182,6 @@
         <option value="$PROJECT_DIR$/src/header.js" />
         <option value="$PROJECT_DIR$/src/tabbedHeader/tab.js" />
         <option value="$PROJECT_DIR$/src/list.js" />
-        <option value="$PROJECT_DIR$/src/scrollable.js" />
         <option value="$PROJECT_DIR$/src/view.js" />
         <option value="$PROJECT_DIR$/examples/components/items-custom-list.js" />
         <option value="$PROJECT_DIR$/examples/data.js" />
@@ -204,6 +192,8 @@
         <option value="$PROJECT_DIR$/src/tabbedHeader/tabs.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/collapsible.js" />
+        <option value="$PROJECT_DIR$/src/scrollable.js" />
       </list>
     </option>
   </component>
@@ -257,6 +247,17 @@
               <item name="collapsible-tab-header" type="b2602c69:ProjectViewProjectNode" />
               <item name="collapsible-tab-header" type="462c0819:PsiDirectoryNode" />
               <item name="examples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="collapsible-tab-header" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collapsible-tab-header" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="collapsible-tab-header" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collapsible-tab-header" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tabbedHeader" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -351,7 +352,7 @@
       <workItem from="1508556503067" duration="592000" />
       <workItem from="1508594533943" duration="5000" />
       <workItem from="1508748429159" duration="1739000" />
-      <workItem from="1508947102824" duration="1479000" />
+      <workItem from="1508947102824" duration="2327000" />
     </task>
     <task id="LOCAL-00001" summary="rename project">
       <created>1507080403501</created>
@@ -383,7 +384,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96011000" />
+    <option name="totallyTimeSpent" value="96859000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
@@ -451,27 +452,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/utils/helpers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/ViewPropTypes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/types.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -479,7 +459,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tabbedHeader/index.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/expo/package.json" />
     <entry file="file://$PROJECT_DIR$/node_modules/expo/AppEntry.js" />
     <entry file="file://$PROJECT_DIR$/examples/types.js">
@@ -591,27 +570,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scrollable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="45" lean-forward="false" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="4" column="44" lean-forward="false" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/components/items-custom-list.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -623,13 +581,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tabbedHeader/tab.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -654,13 +605,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -682,13 +626,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/helpers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/.expo/settings.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -707,48 +644,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/collapsible.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="28" column="19" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tabbedHeader/header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="33" column="12" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/style.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="2" lean-forward="false" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tabbedHeader/tabs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-          <folding>
-            <element signature="e#9#35#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -837,9 +732,145 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="50" column="27" lean-forward="false" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+        <state relative-caret-position="867">
+          <caret line="51" column="31" lean-forward="false" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tabbedHeader/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-134">
+          <caret line="33" column="12" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+          <folding>
+            <element signature="e#9#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tabbedHeader/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tabbedHeader/tab.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#9#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tabbedHeader/tab-not-scrollable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#9#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tabbedHeader/tab-scrollable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#9#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tabbedHeader/tabs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-315">
+          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding>
+            <element signature="e#9#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/collapsible.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+          <folding>
+            <element signature="e#9#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/helpers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/types.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="2" lean-forward="false" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="4" column="44" lean-forward="false" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scrollable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+          <folding>
+            <element signature="e#9#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

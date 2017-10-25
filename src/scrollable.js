@@ -1,6 +1,7 @@
 // @flow
 import React from 'react';
 import { Animated } from 'react-native';
+import PropTypes from 'prop-types';
 import withLifecycle from '@hocs/with-lifecycle';
 import { compose, getContext, withProps, withHandlers } from 'recompose';
 
@@ -30,7 +31,7 @@ export default function (AnimatedList: any) {
 
   return compose(
     getContext({
-      collapsibleProps: React.PropTypes.object,
+      collapsibleProps: PropTypes.object,
     }),
     withProps(({ collapsibleProps }) => {
       const { offsetAnim, scrollAnim, height, scrollable, collapseHeight } = collapsibleProps;
