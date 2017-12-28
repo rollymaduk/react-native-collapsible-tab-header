@@ -54,7 +54,6 @@ export default function (AnimatedList: any) {
         scrollable.scrollEndDrag({ ...rest });
       },
     }),
-
     withLifecycle({
       onDidMount: ({ scrollable, ...rest }) => scrollable.onDidMount({ ...rest }),
       onWillUnmount: ({ scrollable, ...rest }) => scrollable.onWillUnmount({ ...rest }),
