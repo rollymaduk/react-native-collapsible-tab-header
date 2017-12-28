@@ -1,20 +1,20 @@
 {
   "name": "react-native-collapsible-tab-header",
-  "version": "0.0.0-semantically-released",
+  "version": "0.0.0-development",
   "description": "Group of react-native components to ease implementation of collapsible headers with tabs",
   "main": "./src/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rollymaduk/react-native-collapsible-tab-header.git"
+    "url": "https://github.com/rollymaduk/react-native-collapsible-tab-header.git"
   },
   "author": "Ronald Maduka",
   "license": "MIT",
   "scripts": {
     "commit": "git-cz -a",
     "test": "ava",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "semantic-release": "semantic-release"
   },
-  "files":[
+  "files": [
     "src",
     "README.md"
   ],
@@ -35,8 +35,8 @@
     "eslint-plugin-react-native": "^3.0.1",
     "flow-bin": "^0.53.0",
     "jest-expo": "^21.0.2",
-    "semantic-release": "^8.0.3",
-    "sinon": "^3.2.1"
+    "sinon": "^3.2.1",
+    "semantic-release": "^11.0.2"
   },
   "ava": {
     "babel": "inherit",
