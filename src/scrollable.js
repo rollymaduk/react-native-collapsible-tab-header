@@ -3,7 +3,7 @@ import React from 'react';
 import { Animated } from 'react-native';
 import PropTypes from 'prop-types';
 import withLifecycle from '@hocs/with-lifecycle';
-import { compose, getContext, withProps, withHandlers } from 'recompose';
+import { compose, getContext, withProps, withHandlers, toClass } from 'recompose';
 
 const scrollEventThrottle = 1;
 export default function (AnimatedList: any) {
@@ -59,6 +59,7 @@ export default function (AnimatedList: any) {
       onDidMount: ({ scrollable, ...rest }) => scrollable.onDidMount({ ...rest }),
       onWillUnmount: ({ scrollable, ...rest }) => scrollable.onWillUnmount({ ...rest }),
     }),
+    toClass,
   )(Component);
 }
 
