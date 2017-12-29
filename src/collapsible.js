@@ -2,7 +2,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { compose, withProps, withContext,
-  defaultProps } from 'recompose';
+  defaultProps, toClass } from 'recompose';
 import { View } from 'react-native';
 import { getDefaultValues, getWithProps } from './helpers';
 
@@ -28,4 +28,5 @@ export default compose(
   withContext({
     collapsibleProps: PropTypes.object,
   }, props => ({ collapsibleProps: { ...props } })),
+  toClass,
 )(Component);

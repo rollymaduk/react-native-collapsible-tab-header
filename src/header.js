@@ -2,7 +2,7 @@
 import React from 'react';
 import { Animated } from 'react-native';
 import PropTypes from 'prop-types';
-import { compose, getContext, withProps, defaultProps } from 'recompose';
+import { compose, getContext, withProps, defaultProps, toClass } from 'recompose';
 import style from './style';
 
 import { getTranslateY } from './helpers';
@@ -31,4 +31,5 @@ export default compose(
       height,
     });
   }),
+  toClass,
 )(Component);
