@@ -28,5 +28,4 @@ export default compose(
   withContext({
     collapsibleProps: PropTypes.object,
   }, props => ({ collapsibleProps: { ...props } })),
-  toClass,
 )(Component);

@@ -57,7 +57,6 @@ export default function (AnimatedList: any) {
     withLifecycle({
       onDidMount: ({ scrollable, ...rest }) => scrollable.onDidMount({ ...rest }),
       onWillUnmount: ({ scrollable, ...rest }) => scrollable.onWillUnmount({ ...rest }),
-    }),
-    toClass,
+    })
   )(Component);
 }

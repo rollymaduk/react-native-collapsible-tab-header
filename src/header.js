@@ -31,5 +31,4 @@ export default compose(
       height,
     });
   }),
-  toClass,
 )(Component);
