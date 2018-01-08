@@ -3,15 +3,14 @@ import React from 'react';
 import { View, Text } from 'react-native';
 import { compose, defaultProps } from 'recompose';
 import { Collapsible, Tabs, TabHeader, Tab } from 'react-native-collapsible-tab-header';
-import { ItemsScrollView, ItemsFlatList, ItemsCustomList } from '../components/index';
+import { ItemsScrollView, ItemsFlatList, ItemsCustomList, ItemsEnhancedList } from '../components/index';
 import styles from '../style';
-
 
 const ICON_TYPE = 'simple-line-icon';
 const USERS_ICON = 'people';
 const ROUTE_ICON = 'location-pin';
 const PRODUCT_ICON = 'grid';
-const REPORT_ICON = 'chart';
+// const REPORT_ICON = 'chart';
 
 const Component = ({ style }: {style: Object}) => (
   <Collapsible hasNavBar={false} style={{ backgroundColor: 'snow' }} height={'35%'}>
@@ -24,7 +23,7 @@ const Component = ({ style }: {style: Object}) => (
           { key: 'flat-list', title: 'FlatList', icon: { type: ICON_TYPE, name: USERS_ICON } },
           { key: 'scroll-view', title: 'ScrollView', icon: { type: ICON_TYPE, name: PRODUCT_ICON } },
           { key: 'custom', title: 'Custom', icon: { type: ICON_TYPE, name: ROUTE_ICON } },
-          { key: 'content', title: 'Content', icon: { type: ICON_TYPE, name: REPORT_ICON } },
+          { key: 'enhanced', title: 'Enhanced', icon: { type: ICON_TYPE, name: ROUTE_ICON } },
         ]}
       >
         <TabHeader>
@@ -40,6 +39,9 @@ const Component = ({ style }: {style: Object}) => (
         </Tab>
         <Tab key={'custom'}>
           <ItemsCustomList />
+        </Tab>
+        <Tab key={'enhanced'}>
+          <ItemsEnhancedList />
         </Tab>
         <Tab hasScrollable={false} key={'content'}>
           <View>
